@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+/*  The below CSS code is for the Navbar section*/
+
+header{
+    height:80px;
+}
+
+#Name-navbar{
+    background-color: white;
+    color:black;
+    font-weight:bold;
+    margin: auto 0px;
+    text-align: start;
+    display: inline-block;
+    width: 600px;
+    
+}
+
+nav ul{
+    background-color: white;
+    border-radius: 9px;
+    width: 100%;
+    text-align: center;
+    height: 75px;
+    display: flex;
+    border:2px solid darkblue;
+    position: fixed;
+    justify-content: space-around;
+    z-index: 8px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    transition: 0.3s; 
+    background-color: white;
+    font-weight:bold ;
+    color: rgb(105, 103, 103);
+    color: rgb(105, 103, 103);
+}
+
+nav li{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    font-weight:bold ;
+}
+nav a:hover{
+    color:black;
+    background-color: white;
+    transform:translateY(-2.4px);
+    border-radius: 50px;
+    height: 25px;
+    width: 85px;
+    font-weight:bold ;
+    background-color: rgb(67, 200, 244);
+}
+#a2:hover{
+    color:black;
+    background-color: rgb(10, 166, 218);
+    transform:translateY(-2.4px);
+    border-radius: 50px;
+    height: 25px;
+    width: 106px;
+    font-weight: bold;
+}
+
+
+/* The below CSS code is for the About section*/
+
+#About_section{
+    background-color: #F5F9FF;
+    margin-top:0px;
+    height: 900px;
+    border:2px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+#profile_div_image{ /* The div containing profile image*/
+    width: 100%;
+    height: 100%;
+    background-color: #F5F9FF;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile_img{ /* The profile image inside the profile div*/
+    width: 450px;
+    height: 550px;
+    border-radius: 50%;
+    margin-top:130px;
+    margin-left:170px;
+}
+
+#about-text_div{ /*  The div containing text in it*/
+    display: inline-block;
+    background-color: #F5F9FF;
+    width: 70%;
+    height: 100%;
+}
+#about-paragraph{ /* The paragraph inside the about text div*/
+    font-family: Georgia, serif;
+    margin-top:220px;
+    margin-left:10px;
+    font-size:20px;
+    line-height: 1.6;
+    background-color: #F5F9FF;
+}
+
+
+#scroll-button{
+    background-color: #F5F9FF;
+    border-radius: 60px;
+    height: 55px;
+    width: 160px;
+    font-weight: bold;
+    margin: auto;
+    margin-right: 100px;
+    margin-bottom: 70px;
+}
+
+#scroll-button:hover{
+    cursor: pointer;
+    background-color: rgb(67, 200, 244);
+    transform:translate3d(1px,-4px,2px);
+    transition:0.4s;
+}
+
+#contact-button{
+    font-weight: bold;
+    background-color: #F5F9FF;
+    border-radius: 60px;
+    height: 55px;
+    width: 160px;
+    margin: auto;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+#contact-button:hover{
+    cursor: pointer;
+    background-color: rgb(67, 200, 244);
+    transform:translate3d(1px,-4px,2px);
+    transition:0.4s;
+}
+
+/* The below are the codes of section Language*/
