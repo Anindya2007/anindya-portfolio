@@ -79,7 +79,7 @@ nav a:hover {
 .bold {
     font-weight: bold;
     background-color: #F5F9FF;
-    
+
 }
 
 /* The below CSS code is for the About section*/
@@ -171,7 +171,7 @@ nav a:hover {
 
 #Projects_section {
     background-color: rgb(209, 223, 245);
-    height: 900px;
+    height: 950px;
     border: 2px solid black;
 }
 
@@ -187,49 +187,200 @@ nav a:hover {
     background-color: rgb(209, 223, 245);
 }
 
-#card_alignment{
+#card_alignment {
     display: flex;
     justify-content: space-around;
     background-color: rgb(209, 223, 245);
 }
 
-.Project_cards h1{
-    display: inline;
-    background-color: white;
-}
-.Project_cards{
+
+.Project_cards {
     background-color: white;
     height: 550px;
     width: 400px;
-    border-radius:20px;
+    border-radius: 20px;
     display: grid;
-    grid-template-rows: 3fr 1fr 2fr 1fr 1fr; 
-    border:0.8px solid rgb(79, 191, 228);
+    grid-template-rows: 3fr 1fr 2fr 1fr 1fr;
+    border: 0.8px solid rgb(79, 191, 228);
 }
 
-.Project_cards img{
+.Project_cards:hover {
+    transform: translate3d(3px, -6px, 0px);
+
+    transition: 0.4s;
+}
+
+.Project_cards img {
     background-color: grey;
-    margin:22px 20px;
+    margin: 22px 20px;
     border-radius: 20px;
 }
-.Project_cards h2{
-    margin-left:30px;
+
+.Project_cards img:hover {
+    transform: translate3d(2px, -3px, 0px);
+    transition: 0.4s;
 }
 
-.Project_cards p{
-    margin-left:30px;
+.Project_cards h2 {
+    margin-left: 30px;
+    width: 80%;
+}
+
+.Project_cards h2:hover {
+    margin-left: 30px;
+    color: rgb(10, 166, 218);
+    transform: translateY(-3px);
+    transition: 0.4s;
+}
+
+.Project_cards p {
+    margin-left: 30px;
     height: 90%;
     width: 87%;
-    color: grey;
+    color: rgb(88, 87, 87);
     line-height: 25px;
 }
-.Project_cards h5{
-    margin-left:30px;
-    border: 1px solid rgb(79, 191, 228);
-    border-radius:60px;
-    padding: 3px 8px;
-    
+
+.Project_cards h5 {
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+    padding: 4px 10px;
+    font-weight: normal;
 }
-.Project_cards button{
-    margin-left:30px;
+
+.Project_cards h5:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    transform: translateY(-1.7px);
+    transition: 0.3s;
+}
+
+#Project_cards_button_div {
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.Project_cards button {
+    align-items: center;
+    height: 38px;
+    width: 130px;
+    border-radius: 15px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+
+#Project_demo_button {
+    background-color: rgb(59, 191, 235);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+#Project_demo_button:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(-2.5px);
+    transition: 0.3s;
+    border: 1px solid rgb(10, 166, 218);
+}
+
+#Project_github_button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+#Project_github_button:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(-2px);
+    transition: 0.3s;
+    border: 1px solid rgb(10, 166, 218);
+}
+
+/* This is the end of CSS code for Projects page*/
+
+/* The below CSS code is for the Language section*/
+
+#Language_section {
+    border: 1px solid black;
+    background-color: rgb(220, 230, 246);
+    height: 940px;
+}
+
+#Language_heading {
+    text-align: center;
+    background-color: rgb(209, 223, 245);
+    margin-top: 100px;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+#Language_section h2 {
+    background-color: rgb(220, 230, 246);
+    line-height: 40px;
+}
+
+#Language_section p {
+    background-color: rgb(220, 230, 246);
+    line-height: 32px;
+}
+
+#language_cards_alignment{
+    margin: 70px 160px 10px 160px;
+    height: 520px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(220, 230, 246);
+}
+
+.Language_image{
+    height:100px;
+    width:100px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top:25px;
+}
+
+.Language_card_design_column1{
+    border:2px solid black;
+    height:260px;
+    width:350px;
+    margin-left:160px;
+    border-radius:20px;
+    text-align: center;
+    background-color: white;
+}
+
+.Language_card_design_column2{
+    border:2px solid black;
+    background-color: white;
+    height:260px;
+    width:350px;
+    margin-left:55px; 
+    margin-bottom:50px;
+    border-radius:20px;
+    text-align: center;
+}
+
+.Language_card_design_column1:hover{
+    transform: translate3d(2px,-4px,2px);
+    border:5px solid black;
+    transition: 0.4s;
+}
+
+.Language_card_design_column2:hover{
+    margin-bottom:44px;
+    transform: translate3d(1px,-4px,2px);
+    border:5px solid black;
+    transition: 0.4s;
 }
